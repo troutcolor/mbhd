@@ -27,8 +27,9 @@ var runthis =function(){
 if (location.href=='https://micro.blog/discover/podcasts'){
 runthis();
 }else{
+	console.log(encodeURIComponent(location.href));
 	 var w=window.open('https://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
-console.log(w);
+console.log("w"+w);
 }
 
 
