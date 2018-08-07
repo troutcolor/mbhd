@@ -13,7 +13,7 @@ This would be the link that goes in a bookmarklet.
 javascript:(function()%7Bdocument.body.appendChild(document.createElement('script')).src='https://johnj.info/mbhd.js';%7D)();
 */
 
-
+console.log("mbhd");
 
 var runthis =function(){
 	
