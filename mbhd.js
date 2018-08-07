@@ -13,7 +13,7 @@ This would be the link that goes in a bookmarklet.
 javascript:(function()%7Bdocument.body.appendChild(document.createElement('script')).src='https://johnj.info/mbhd.js';%7D)();
 */
 
-console.log("mbhd");
+
 
 var runthis =function(){
 	
@@ -27,9 +27,9 @@ var runthis =function(){
 if (location.href=='https://micro.blog/discover/podcasts'){
 runthis();
 }else{
-	console.log("not mb");
+
 	 var w=window.open('https://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
-console.log("w"+w);
+
 }
 
 
